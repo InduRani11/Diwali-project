@@ -1,8 +1,9 @@
-* {
+*{
     border:0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
+
 #background-video {
     width: 100vw;
     height: 100vh;
@@ -14,14 +15,15 @@
     bottom: 0;
     z-index: -1;
  }
+
 body {
     background-image: s("4133187-uhd_3840_2160_25fps.mp4");
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    background-position: fixed;
+    /* background-position: fixed; */
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: pointer;
 }
 
@@ -116,4 +118,10 @@ h2 {
         0px 0px 30px rgb(212,65,6), 0px 0px 60px rgb(221,195,25,0.774),
         0px 0px 50px rgb(16,175,43,0.863);
     }
+}
+.footer{
+    background-color: brown;
+    color: aquamarine;
+    font-size: 30px;
+
 }
